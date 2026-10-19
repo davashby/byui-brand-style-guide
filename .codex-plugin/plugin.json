@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "displayName": "BYU-Idaho Brand Style Guide",
+    "shortDescription": "Create BYU–Idaho brand assets",
+    "longDescription": "Guidance for planning, prompting, and reviewing visual and written assets against BYU–Idaho’s official public brand guidance.",
+    "developerName": "Plugin owner",
+    "category": "Design",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Help me create an asset that follows BYU–Idaho’s brand guidance.",
+      "Review this design or prompt for BYU–Idaho brand alignment."
+    ]
+  },
+  "name": "byui-brand-guide",
+  "version": "0.1.11",
+  "description": "Create and review BYU–Idaho-aligned visual assets using official branding guidance.",
+  "author": {
+    "name": "David Ashby",
+    "email": "dashby97@byui.edu"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
