@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "path_base": "plugin root",
+  "templates": [
+    {
+      "path": "assets/templates/powerpoint/BYUI_Blue_Template.potx",
+      "sha256": "7ae8bafcac24962022916da342b1b7e4f2db6d71cd885214eb5dc7bbfbb22696",
+      "layout_set": "anniversary-shared"
+    },
+    {
+      "path": "assets/templates/powerpoint/BYUI_White_Template.potx",
+      "sha256": "e9fe8e567d391f862bd8464d35a287615299c3a5bb76325a5bfbc5486d3d6e7c",
+      "layout_set": "anniversary-shared"
+    }
+  ],
+  "layout_sets": {
+    "anniversary-shared": [
+      {
+        "part": "ppt/slideLayouts/slideLayout1.xml",
+        "name": "Taylor + Title",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout2.xml",
+        "name": "Spori + Title",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout3.xml",
+        "name": "Taylor/Grass + Title",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout4.xml",
+        "name": "Black Out",
+        "type": "",
+        "placeholder_types": []
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout5.xml",
+        "name": "1_Title Page (2)",
+        "type": "",
+        "placeholder_types": []
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout6.xml",
+        "name": "BYUI Blue + Logo",
+        "type": "",
+        "placeholder_types": []
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout7.xml",
+        "name": "Black + Logo",
+        "type": "",
+        "placeholder_types": []
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout8.xml",
+        "name": "Blank",
+        "type": "blank",
+        "placeholder_types": []
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout9.xml",
+        "name": "Blank + Logo + Footer",
+        "type": "blank",
+        "placeholder_types": [
+          "ftr",
+          "sldNum"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout10.xml",
+        "name": "Section Header",
+        "type": "title",
+        "placeholder_types": [
+          "ctrTitle",
+          "ftr",
+          "sldNum",
+          "subTitle"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout11.xml",
+        "name": "Section Header 2",
+        "type": "secHead",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout12.xml",
+        "name": "Large Text or Quote",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "sldNum"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout13.xml",
+        "name": "Title + Org Chart",
+        "type": "titleOnly",
+        "placeholder_types": [
+          "ftr",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout14.xml",
+        "name": "Title Only",
+        "type": "titleOnly",
+        "placeholder_types": [
+          "ftr",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout15.xml",
+        "name": "Title + Table",
+        "type": "titleOnly",
+        "placeholder_types": [
+          "ftr",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout16.xml",
+        "name": "Title + Percentages",
+        "type": "titleOnly",
+        "placeholder_types": [
+          "ftr",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout17.xml",
+        "name": "Title + Content",
+        "type": "obj",
+        "placeholder_types": [
+          "ftr",
+          "object",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout18.xml",
+        "name": "Title + Side by Side Content",
+        "type": "twoObj",
+        "placeholder_types": [
+          "ftr",
+          "object",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout19.xml",
+        "name": "Subtitle + Side by Side Content ",
+        "type": "twoTxTwoObj",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "object",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout20.xml",
+        "name": "Title + Sub Title + Text",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout21.xml",
+        "name": "Title + Text",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout22.xml",
+        "name": "Lg Image + Text",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "pic",
+          "sldNum"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout23.xml",
+        "name": "Med Image + Text",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "pic",
+          "sldNum"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout24.xml",
+        "name": "Sm Image + Text",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "pic",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout25.xml",
+        "name": "Side Title + Content",
+        "type": "objTx",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "object",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout26.xml",
+        "name": "Side Title + Image",
+        "type": "",
+        "placeholder_types": [
+          "body",
+          "ftr",
+          "pic",
+          "sldNum",
+          "title"
+        ]
+      },
+      {
+        "part": "ppt/slideLayouts/slideLayout27.xml",
+        "name": "Black Slide",
+        "type": "",
+        "placeholder_types": [
+          "sldNum"
+        ]
+      }
+    ]
+  }
+}

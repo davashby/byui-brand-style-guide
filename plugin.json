@@ -1,24 +1,18 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "byui-brand-guide",
-  "version": "0.1.11",
-  "description": "Create and review BYU–Idaho-aligned visual assets using official branding guidance.",
+  "version": "0.2.0",
+  "description": "Create and review BYU-Idaho documents, presentations, PDFs, images, infographics, and copy using official branding guidance.",
   "author": {
     "name": "David Ashby",
     "email": "dashby97@byui.edu"
   },
-  "logo": "assets/byui-brand-guide.svg",
-  "logoDark": "assets/byui-brand-guide-dark.svg",
-  "composerIcon": "assets/byui-brand-guide.svg",
-  "composerIconDark": "assets/byui-brand-guide-dark.svg",
-  "brandColor": "#006EB6",
-  "brandColorDark": "#4F9ACF",
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "BYU-Idaho Brand Style Guide",
-        "shortDescription": "Create BYU–Idaho brand assets",
-        "longDescription": "Guidance for planning, prompting, and reviewing visual and written assets against BYU–Idaho’s official public brand guidance.",
+        "shortDescription": "Create BYU-Idaho brand assets",
+        "longDescription": "Create and review BYU-Idaho documents, slides, PDFs, graphics, infographics, and copy using official university guidance and supplied assets.",
         "developerName": "Plugin owner",
         "category": "Design",
         "capabilities": [
@@ -27,8 +21,23 @@
         "defaultPrompt": [
           "Help me create an asset that follows BYU–Idaho’s brand guidance.",
           "Review this design or prompt for BYU–Idaho brand alignment."
-        ]
+        ],
+        "logo": "./assets/byui-brand-guide.svg",
+        "logoDark": "./assets/byui-brand-guide-dark.svg",
+        "composerIcon": "./assets/byui-brand-guide.svg",
+        "composerIconDark": "./assets/byui-brand-guide-dark.svg",
+        "brandColor": "#006EB6",
+        "brandColorDark": "#4F9ACF"
       }
     }
-  }
+  },
+  "repository": "https://github.com/davashby/byui-brand-style-guide",
+  "keywords": [
+    "byu-idaho",
+    "branding",
+    "documents",
+    "presentations",
+    "pdf",
+    "infographics"
+  ]
 }

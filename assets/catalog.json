@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-19",
+  "path_base": "plugin root",
+  "assets": [
+    {
+      "id": "byui-brand-guide-dark",
+      "path": "assets/byui-brand-guide-dark.svg",
+      "bytes": 265,
+      "sha256": "fe9dfea3e37a9c25feab5ee84b8c68c09c9f27d8084f02de1c1ea40142c48f6b",
+      "format": "svg",
+      "kind": "plugin-ui-icon",
+      "status": "available",
+      "is_university_logo": false,
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "source": "Custom plugin interface icon; not a university logo"
+    },
+    {
+      "id": "byui-brand-guide",
+      "path": "assets/byui-brand-guide.svg",
+      "bytes": 262,
+      "sha256": "b523d030c8a9e9044c59228df0e7593b19bcfa6c7d52d9394a6b0c11e2d8f8f6",
+      "format": "svg",
+      "kind": "plugin-ui-icon",
+      "status": "available",
+      "is_university_logo": false,
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "source": "Custom plugin interface icon; not a university logo"
+    },
+    {
+      "id": "logo-black-on-white-webp",
+      "path": "assets/logo-black-on-white.webp",
+      "bytes": 7828,
+      "sha256": "fa3cd9a6490d8660c74eeeb3f930392cda653a7081c3017b7e2fff5426d7550e",
+      "format": "webp",
+      "kind": "university-logo-tile",
+      "status": "available",
+      "dimensions_px": [
+        800,
+        800
+      ],
+      "mode": "RGB",
+      "solid_background": true,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "estimated_mark_bbox_px": [
+        179,
+        272,
+        621,
+        528
+      ],
+      "transparent": false,
+      "vector": false,
+      "source": "User-supplied original WebP tile",
+      "preferred_for": [
+        "compatible web/image workflows"
+      ],
+      "office_note": "Prefer PNG for Office insertion."
+    },
+    {
+      "id": "logo-blue-on-white-webp",
+      "path": "assets/logo-blue-on-white.webp",
+      "bytes": 12042,
+      "sha256": "68678f8e26991270ca8fcfad31833988e1f0b4f9f6ad345546bb6bdf700f0647",
+      "format": "webp",
+      "kind": "university-logo-tile",
+      "status": "available",
+      "dimensions_px": [
+        800,
+        800
+      ],
+      "mode": "RGB",
+      "solid_background": true,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "estimated_mark_bbox_px": [
+        179,
+        272,
+        621,
+        528
+      ],
+      "transparent": false,
+      "vector": false,
+      "source": "User-supplied original WebP tile",
+      "preferred_for": [
+        "compatible web/image workflows"
+      ],
+      "office_note": "Prefer PNG for Office insertion."
+    },
+    {
+      "id": "logo-white-on-black-webp",
+      "path": "assets/logo-white-on-black.webp",
+      "bytes": 7840,
+      "sha256": "a530ae66f3c9917f959a1500e93b4f51a38daa450b9caf0ae1bddcf0710029ab",
+      "format": "webp",
+      "kind": "university-logo-tile",
+      "status": "available",
+      "dimensions_px": [
+        800,
+        800
+      ],
+      "mode": "RGB",
+      "solid_background": true,
+      "background_rgb": [
+        0,
+        0,
+        0
+      ],
+      "estimated_mark_bbox_px": [
+        179,
+        272,
+        621,
+        528
+      ],
+      "transparent": false,
+      "vector": false,
+      "source": "User-supplied original WebP tile",
+      "preferred_for": [
+        "compatible web/image workflows"
+      ],
+      "office_note": "Prefer PNG for Office insertion."
+    },
+    {
+      "id": "logo-white-on-blue-webp",
+      "path": "assets/logo-white-on-blue.webp",
+      "bytes": 11940,
+      "sha256": "b5ca0e893dc1d59c461b6eade8265ece379f95d2ca1bbc73396793e5e7e8bad2",
+      "format": "webp",
+      "kind": "university-logo-tile",
+      "status": "available",
+      "dimensions_px": [
+        800,
+        800
+      ],
+      "mode": "RGB",
+      "solid_background": true,
+      "background_rgb": [
+        0,
+        109,
+        182
+      ],
+      "estimated_mark_bbox_px": [
+        179,
+        272,
+        621,
+        528
+      ],
+      "transparent": false,
+      "vector": false,
+      "source": "User-supplied original WebP tile",
+      "preferred_for": [
+        "compatible web/image workflows"
+      ],
+      "office_note": "Prefer PNG for Office insertion."
+    },
+    {
+      "id": "logo-black-on-white-png",
+      "path": "assets/logos/logo-black-on-white.png",
+      "bytes": 60213,
+      "sha256": "1257c8d697bccdfc9526af6d3d9f7ac5fd60cd03610fad0bc35242b19daf7a84",
+      "format": "png",
+      "kind": "university-logo-tile",
+      "status": "available",
+      "dimensions_px": [
+        2500,
+        2500
+      ],
+      "mode": "RGBA",
+      "solid_background": true,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "estimated_mark_bbox_px": [
+        560,
+        850,
+        1940,
+        1650
+      ],
+      "transparent": false,
+      "vector": false,
+      "source_page": "https://www.byui.edu/branding/logos/official",
+      "download_url": "https://byu-idaho-brightspot-production-us-east-2.s3.us-east-2.amazonaws.com/28/73/cc5990b64124b9743a2cde73af77/byui-square-logos-black-on-white.png",
+      "origin": "Unmodified original PNG linked by the official logo page",
+      "source_checked": "2026-10-19",
+      "preferred_for": [
+        "DOCX",
+        "PPTX",
+        "PDF",
+        "images"
+      ],
+      "transformation": "none"
+    },
+    {
+      "id": "logo-blue-on-white-png",
+      "path": "assets/logos/logo-blue-on-white.png",
+      "bytes": 64624,
+      "sha256": "b4fe2c93e6872da38ad77aabf865a70e31a30234266e59d8b4733546c18fd4d2",
+      "format": "png",
+      "kind": "university-logo-tile",
+      "status": "available",
+      "dimensions_px": [
+        2500,
+        2500
+      ],
+      "mode": "RGBA",
+      "solid_background": true,
+      "background_rgb": [
+        255,
+        255,
+        255
+      ],
+      "estimated_mark_bbox_px": [
+        560,
+        850,
+        1940,
+        1650
+      ],
+      "transparent": false,
+      "vector": false,
+      "source_page": "https://www.byui.edu/branding/logos/official",
+      "download_url": "https://byu-idaho-brightspot-production-us-east-2.s3.us-east-2.amazonaws.com/22/2e/b2fa9dd94c92982b94f44c24c03d/byui-square-logos-blue-on-white.png",
+      "origin": "Unmodified original PNG linked by the official logo page",
+      "source_checked": "2026-10-19",
+      "preferred_for": [
+        "DOCX",
+        "PPTX",
+        "PDF",
+        "images"
+      ],
+      "transformation": "none"
+    },
+    {
+      "id": "logo-white-on-black-png",
+      "path": "assets/logos/logo-white-on-black.png",
+      "bytes": 60468,
+      "sha256": "0281219fbeb7274b7d4bdb1b2292f4d99c2b2e132fb72cbd8389b7e9f082f10c",
+      "format": "png",
+      "kind": "university-logo-tile",
+      "status": "available",
+      "dimensions_px": [
+        2500,
+        2500
+      ],
+      "mode": "RGBA",
+      "solid_background": true,
+      "background_rgb": [
+        0,
+        0,
+        0
+      ],
+      "estimated_mark_bbox_px": [
+        560,
+        850,
+        1940,
+        1650
+      ],
+      "transparent": false,
+      "vector": false,
+      "source_page": "https://www.byui.edu/branding/logos/official",
+      "download_url": "https://byu-idaho-brightspot-production-us-east-2.s3.us-east-2.amazonaws.com/c6/c5/0f6630214a738bbbe3fbdd6425b8/byui-square-logos-white-on-black.png",
+      "origin": "Unmodified original PNG linked by the official logo page",
+      "source_checked": "2026-10-19",
+      "preferred_for": [
+        "DOCX",
+        "PPTX",
+        "PDF",
+        "images"
+      ],
+      "transformation": "none"
+    },
+    {
+      "id": "logo-white-on-blue-png",
+      "path": "assets/logos/logo-white-on-blue.png",
+      "bytes": 65007,
+      "sha256": "e5dc617bea6a751397f93995a7ba3d062a71a20cb351907fac3dc263492ecd85",
+      "format": "png",
+      "kind": "university-logo-tile",
+      "status": "available",
+      "dimensions_px": [
+        2500,
+        2500
+      ],
+      "mode": "RGBA",
+      "solid_background": true,
+      "background_rgb": [
+        0,
+        110,
+        182
+      ],
+      "estimated_mark_bbox_px": [
+        560,
+        850,
+        1940,
+        1650
+      ],
+      "transparent": false,
+      "vector": false,
+      "source_page": "https://www.byui.edu/branding/logos/official",
+      "download_url": "https://byu-idaho-brightspot-production-us-east-2.s3.us-east-2.amazonaws.com/c4/7a/8ad3d0424e8aaa71438693ed316d/byui-square-logos-white-on-blue.png",
+      "origin": "Unmodified original PNG linked by the official logo page",
+      "source_checked": "2026-10-19",
+      "preferred_for": [
+        "DOCX",
+        "PPTX",
+        "PDF",
+        "images"
+      ],
+      "transformation": "none"
+    },
+    {
+      "id": "BrandedEmailSignatureTemplate-2025",
+      "path": "assets/templates/email-signature/BrandedEmailSignatureTemplate-2025.docx",
+      "bytes": 14627,
+      "sha256": "baefa5f9154fc15ae8d06a0eaffbb940a07c1bb4c716d2a427fa64e8a6a35b2d",
+      "format": "docx",
+      "kind": "email-signature-template",
+      "status": "available-dated-template",
+      "source": "User-supplied BrandedEmailSignatureTemplate-2025.docx",
+      "source_page": "https://www.byui.edu/branding/office-templates",
+      "latest_source_revision_verified": false,
+      "general_document_template": false,
+      "usage": "Replace identity/contact fields; retain branding; verify current official signature/setup guidance."
+    },
+    {
+      "id": "BYUI_Blue_Template",
+      "path": "assets/templates/powerpoint/BYUI_Blue_Template.potx",
+      "bytes": 3278232,
+      "sha256": "7ae8bafcac24962022916da342b1b7e4f2db6d71cd885214eb5dc7bbfbb22696",
+      "format": "potx",
+      "kind": "powerpoint-template",
+      "status": "conditional-anniversary-only",
+      "source": "User-supplied OneDrive archive",
+      "source_page": "https://www.byui.edu/branding/office-templates",
+      "latest_source_revision_verified": false,
+      "campaign": "25-year-anniversary",
+      "requires_current_authorization": true,
+      "campaign_end_date": null,
+      "not_evergreen": true,
+      "contains_anniversary_master_footer": true,
+      "footer_media": "ppt/media/image1.emf",
+      "slide_count": 32,
+      "layout_count": 27,
+      "native_chart_count": 7,
+      "slide_size_emu": {
+        "cx": 12192000,
+        "cy": 6858000
+      },
+      "fonts_embedded": false,
+      "font_notes": "Arial master placeholders, Calibri theme declarations, legacy NewsGoth chart declaration; inspect actual retained content.",
+      "working_copy_helper": "skills/byui-brand-guide/scripts/prepare_pptx.py",
+      "usage": "Confirm current anniversary authorization; otherwise retrieve a current approved generic template. Remove sample/instruction slides when adapting. Check native charts and final footer rendering."
+    },
+    {
+      "id": "BYUI_White_Template",
+      "path": "assets/templates/powerpoint/BYUI_White_Template.potx",
+      "bytes": 3277059,
+      "sha256": "e9fe8e567d391f862bd8464d35a287615299c3a5bb76325a5bfbc5486d3d6e7c",
+      "format": "potx",
+      "kind": "powerpoint-template",
+      "status": "conditional-anniversary-only",
+      "source": "User-supplied OneDrive archive",
+      "source_page": "https://www.byui.edu/branding/office-templates",
+      "latest_source_revision_verified": false,
+      "campaign": "25-year-anniversary",
+      "requires_current_authorization": true,
+      "campaign_end_date": null,
+      "not_evergreen": true,
+      "contains_anniversary_master_footer": true,
+      "footer_media": "ppt/media/image1.emf",
+      "slide_count": 32,
+      "layout_count": 27,
+      "native_chart_count": 7,
+      "slide_size_emu": {
+        "cx": 12192000,
+        "cy": 6858000
+      },
+      "fonts_embedded": false,
+      "font_notes": "Arial master placeholders, Calibri theme declarations, legacy NewsGoth chart declaration; inspect actual retained content.",
+      "working_copy_helper": "skills/byui-brand-guide/scripts/prepare_pptx.py",
+      "usage": "Confirm current anniversary authorization; otherwise retrieve a current approved generic template. Remove sample/instruction slides when adapting. Check native charts and final footer rendering."
+    }
+  ],
+  "linked_resources": [
+    {
+      "id": "approved-vector-transparent-logos",
+      "url": "https://www.byui.edu/branding/logos/official",
+      "status": "linked-not-bundled",
+      "access": "Linked package may require university SharePoint sign-in",
+      "required_when": "vector/transparent/large-format logo treatment is needed"
+    },
+    {
+      "id": "department-logos",
+      "url": "https://www.byui.edu/branding/logos/department",
+      "status": "linked-not-bundled",
+      "access": "University SharePoint sign-in may be required",
+      "required_when": "a named university unit is the sender"
+    },
+    {
+      "id": "official-office-and-generic-powerpoint-templates",
+      "url": "https://www.byui.edu/branding/office-templates",
+      "status": "linked-not-bundled",
+      "access": "University SharePoint sign-in may be required; latest revisions not verified",
+      "required_when": "official stationery or a current generic university deck template is needed"
+    },
+    {
+      "id": "linkedin-banners",
+      "url": "https://drive.google.com/drive/folders/1G1Bi1R2ro8ilEgX_v2WcQMWos48mQsFG",
+      "status": "linked-not-bundled",
+      "access": "Drive collection; access requirements may vary",
+      "usage": "Check campaign marks before use"
+    },
+    {
+      "id": "approved-photography",
+      "url": "https://photo.byui.edu/",
+      "status": "linked-not-bundled",
+      "usage": "Confirm download permission and intended-use rights"
+    },
+    {
+      "id": "licensed-brand-fonts",
+      "url": "https://www.byui.edu/branding/fonts-typefaces",
+      "status": "licensed-not-bundled",
+      "usage": "Preflight actual font availability; obtain licensed access or identify the limitation"
+    }
+  ],
+  "logo_rules": {
+    "sizing": "Minimum visible mark height 36 px digital or 3/8 inch print, plus B-height clear space. Estimated bounds are for sizing only; never crop to them.",
+    "background": "All bundled tiles are opaque; preserve their backgrounds and proportions.",
+    "format": "Prefer original PNG for Office/PDF. Vector and transparent masters are not bundled."
+  }
+}

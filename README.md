@@ -1,39 +1,48 @@
 # BYU-Idaho Brand Style Guide
 
-A reusable plugin for planning, creating, and reviewing BYU-Idaho visual and written assets using the university’s public branding guidance.
+A reusable plugin for creating and reviewing BYU-Idaho documents, presentations, PDFs, images, infographics, and copy using official public branding guidance.
 
-Current plugin version: **0.1.11**.
+Current version: **0.2.0**. Use the [published workspace plugin](https://chatgpt.com/plugins/Plugin_577e4a2f4ccc819180d1bc4a6aa1bfe3) where you have access.
 
-## Contents
+## Included resources
 
-- Brand guidance skill and references covering colors, typography, logos, photography, illustration, writing, and campus communication channels.
-- Four supplied university logo tiles.
-- Blue and white PowerPoint templates (`.potx`).
-- A supplied email signature template (`.docx`).
-- A link to the university’s LinkedIn banner collection.
+- A short core skill with references loaded by task, covering brand rules, writing, channels, assets, and output production.
+- Four unmodified original PNG logo tiles from the official logo page, plus the four supplied WebP tiles.
+- The supplied email signature DOCX.
+- Blue and white POTX templates **with a 25 YEARS footer**. These require confirmed current anniversary authorization and are not generic evergreen templates.
+- Asset provenance/hashes and a compact PowerPoint layout index.
+- Links to official generic office/PPT templates, department/vector logos, licensed font access, photography, and LinkedIn banners. These linked resources are not bundled and may require sign-in.
 
-## Use
+This plugin is a practical summary, not university approval. Current [BYU-Idaho branding guidance](https://www.byui.edu/branding/) is authoritative. The host supplies document/presentation/image tools; this package does not bundle Office, a renderer, or licensed fonts. It identifies missing capabilities or restricted assets rather than claiming an unavailable output is complete.
 
-Use the [published workspace plugin](https://chatgpt.com/plugins/Plugin_577e4a2f4ccc819180d1bc4a6aa1bfe3) where you have access. This repository stores the editable plugin source and bundled assets.
+## Validate and package
 
-The plugin is a practical summary, not an official university publication or approval. Current [BYU-Idaho branding pages](https://www.byui.edu/branding/) are the authority. The references record how claims from the supplied institutional brand architecture document were reconciled with those pages.
-
-## Package
-
-From the repository root, run:
+Python 3.10 or newer is sufficient for package validation, packaging, and the guarded template-copy helper:
 
 ```sh
+python3 scripts/validate_plugin.py
+python3 -m unittest discover -s tests -v
 python3 scripts/package_plugin.py
 ```
 
-The ZIP is written to `dist/byui-brand-guide-plugin.zip` and contains a single plugin directory. Generated archives are excluded from Git.
+The optional DOCX compatibility test uses `python-docx` when available in the host's artifact runtime. Tests otherwise run with the standard library. The package builder validates first and creates a reproducible ZIP at `dist/byui-brand-guide-plugin.zip`. It includes only plugin components, excludes build/cache files, and rejects symlinks. Root maintenance scripts, tests, audit documents, and generated archives are not shipped to the plugin.
 
-## Maintain
+## PowerPoint working copies
 
-Edit `skills/byui-brand-guide/SKILL.md` and its references as guidance changes. Keep the versions in `plugin.json` and `.codex-plugin/plugin.json` aligned, and preserve the package name `byui-brand-guide` when updating the existing plugin. Its visible title is configured in both manifests.
+The original templates remain intact. A helper can change only the main Office MIME type to make a working PPTX while preserving all other parts, including charts and workbooks:
 
-Publishing to GitHub does not update the workspace plugin automatically. Publish a new package through the existing Plugin Creator workflow when a release is ready.
+```sh
+python3 skills/byui-brand-guide/scripts/prepare_pptx.py --variant blue --output /absolute/path/working.pptx --anniversary-approved
+```
 
-## Assets and access
+Use that flag only after independently confirming current anniversary authorization. It does not grant approval. The working copy still includes examples and anniversary artwork, and subsequent edits/exports need validation. For general official presentations, obtain the current approved generic template from the university's resource library.
 
-Bundled logos and templates retain their original ownership and usage restrictions. This repository does not grant permission to redistribute or alter university marks. Linked Drive resources retain their own access requirements.
+## Maintain and release
+
+- Edit the core skill sparingly; put conditional detail in references.
+- When assets change, update their catalog hashes/provenance and the template layout index, then validate.
+- Synchronize versions, identity, and interface metadata in both manifests; preserve the existing package name `byui-brand-guide` and plugin ID.
+- Build/test a new package and update the existing workspace plugin through Plugin Creator. GitHub pushes do not automatically publish plugin releases.
+- Review [the original audit](docs/audit-2026-10-19.md), [release validation](docs/validation-0.2.0.md), and [changelog](CHANGELOG.md).
+
+Bundled logos/templates retain their original ownership and usage restrictions. This repository does not grant permission to alter or redistribute university marks. Linked resources retain their own access requirements.
