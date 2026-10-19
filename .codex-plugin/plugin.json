@@ -34,5 +34,6 @@
     "pdf",
     "infographics"
   ],
-  "skills": "./skills"
+  "skills": "./skills",
+  "repository": "https://github.com/davashby/byui-brand-style-guide"
 }

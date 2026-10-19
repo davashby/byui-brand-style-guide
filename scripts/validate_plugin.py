@@ -75,7 +75,7 @@ def validate(root=ROOT):
     schema = json.loads((ROOT / 'scripts/schemas/agent-plugins-1.0.0.json').read_text())
     errors = check_schema(manifest, schema)
     interface = manifest['extensions']['com.openai']['interface']
-    for field in ['name', 'version', 'description', 'author']:
+    for field in ['name', 'version', 'description', 'author', 'repository', 'keywords']:
         if manifest[field] != legacy[field]:
             errors.append(f'Manifest mismatch: {field}')
     if interface != legacy['interface']:
