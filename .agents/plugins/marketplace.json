@@ -1,0 +1,20 @@
+{
+  "name": "byui-brand-style-guide",
+  "interface": {
+    "displayName": "BYU-Idaho Brand Style Guide"
+  },
+  "plugins": [
+    {
+      "name": "byui-brand-guide",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}
